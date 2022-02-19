@@ -1,0 +1,7 @@
+import pandas as pd
+data2= pd.read_csv("solarstrahlung_stunde.csv")
+data2
+data= pd.read_csv("Verbrauch_pro_Stunde.csv")
+data
+data.head(1)
+data2.head(1)
